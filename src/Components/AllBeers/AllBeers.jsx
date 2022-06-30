@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./AllBeers.module.scss";
 import Card from "../Card/Card";
-import beers from "../../Data";
 
 const AllBeers = ({ beerArr }) => {
   return (
