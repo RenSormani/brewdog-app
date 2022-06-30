@@ -1,4 +1,4 @@
-# punk-api
+# Brewdog App
 It's a React app that searches through Brewdog's beer catalogue using their API. Now get looking for your favourite brew, dog! 
 
 # What I used:
@@ -33,4 +33,4 @@ The challenge was to build a single page website/application using REACT, which 
 •	The app has also been created to be completely responsive across different sized screens
 
 # Punk API
-<img width="952" alt="Hostile-Aliens SCreengrab" src="https://user-images.githubusercontent.com/93707792/167137234-4adbc1ce-74e4-4b49-8fc5-e675622a7a93.png">
+![PunkAPI](https://user-images.githubusercontent.com/93707792/176680268-74cb56df-5c10-41a5-9bb7-d051ec2d9bca.jpg)
