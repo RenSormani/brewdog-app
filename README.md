@@ -33,4 +33,4 @@ The challenge was to build a single page website/application using REACT, which 
 •	The app has also been created to be completely responsive across different sized screens
 
 # Punk API
-<img width="952" alt="Hostile-Aliens SCreengrab" src="https://user-images.githubusercontent.com/93707792/167137234-4adbc1ce-74e4-4b49-8fc5-e675622a7a93.png">
+![PunkAPI](https://user-images.githubusercontent.com/93707792/176687713-8d47c9f9-0118-4318-b6fc-51fecf7e0596.jpg)
