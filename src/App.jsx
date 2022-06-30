@@ -17,7 +17,6 @@ const App = () => {
           <Route path="random" element={<Random />} />
         </Routes>
       </div>
-
     </>
   );
 };
