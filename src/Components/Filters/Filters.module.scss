@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&family=VT323&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: fit-content;
+  position: aboslute;
+  font-size: 0.75em;
+
+  .filters {
+    display: inline;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+      color: gray;
+    }
+  }
+
+  .close_container {
+    position: absolute;
+    margin-left: 80em;
+    margin-bottom: 0.5em;
+  }
+
+  .close_filters {
+    position: relative;
+    width: fit-content;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    border: 0.1em solid white;
+    border-radius: 0.15em;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+      color: gray;
+    }
+  }
+  .form_checkbox {
+    position: relative;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    width: fit-content;
+    input[type="checkbox"] {
+      -webkit-appearance: none;
+      appearance: none;
+      background-color: var(--form-background);
+      margin: 0;
+      cursor: pointer;
+      font: inherit;
+      color: white;
+      width: 1em;
+      height: 1em;
+      border: 0.1em solid currentColor;
+      border-radius: 0.15em;
+      transform: translateY(0.2em);
+      display: grid;
+      place-content: center;
+      &::before {
+        content: "";
+        width: 0.65em;
+        height: 0.65em;
+        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+        transform: scale(0);
+        transform-origin: bottom left;
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em var(--form-control-color);
+        background-color: white;
+      }
+      &:checked::before {
+        transform: scale(1);
+      }
+      &:focus {
+        outline: max(2px, 0.15em) solid currentColor;
+        outline-offset: max(2px, 0.15em);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .container {
+    width: 50%;
+  }
+
+  .form_checkbox {
+    flex-direction: column;
+    font-size: 0.7em;
+    font-weight: bolder;
+    margin-left: -5.5em;
+  }
+
+  h4 {
+    margin-top: 1em;
+    width: 100%;
+  }
+  .close_filters {
+    margin-left: 9.5em;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  .form_checkbox {
+    font-size: 0.7em;
+    font-weight: bolder;
+    margin-left: -2em;
+  }
+
+  .close_filters {
+    margin-left: 15em;
+  }
+}
+
+@media only screen and (min-width: 775px) {
+  .form_checkbox {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-left: -2.5em;
+  }
+
+  .close_filters {
+    margin-left: 20em;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .form_checkbox {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-left: -0.5em;
+    margin-top: -2em;
+  }
+
+  .close_filters {
+    margin-left: 35em;
+  }
+}
+
+@media only screen and (min-width: 1225px) {
+  .form_checkbox {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-left: -0.5em;
+    margin-top: -2em;
+  }
+
+  .close_filters {
+    margin-left: 40em;
+  }
+}

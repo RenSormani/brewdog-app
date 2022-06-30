@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@600&display=swap");
+
+.searchBar {
+  .searchBar__input {
+    width: min-content;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight:bolder;
+    color: black;
+    padding-left: 10px;
+    border-radius: 5px;
+
+    &:focus {
+      border: 2px solid black;
+    }
+  }
+}

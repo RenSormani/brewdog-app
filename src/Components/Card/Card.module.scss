@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&family=VT323&display=swap");
+
+.card {
+  margin: 15px 0 10px 5%;
+  height: 100%;
+  width: 90%;
+  background-color: (rgb(72, 68, 68));
+  border: white 2px solid;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  .view_more {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .view_return {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+h3 {
+    font-size: 1.8em;
+    padding: 1em;
+    margin-top: 0.5em;
+  }
+
+  .content_list__title {
+    font-size: 1.2em;
+    padding: 0.1em;
+    margin-top: 0.1em;
+  }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  h2 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -20px;
+  }
+
+  p {
+    font-size: larger;
+    font-weight: lighter;
+    padding: 0.5rem;
+  }
+
+  .content__tag {
+    color: rgb(165, 164, 164);
+    
+  }
+}
+
+.extra_content {
+  padding: 2rem;
+}
+
+.container_fave {
+  margin-left: 13em;
+  margin-top: -32em;
+  position: absolute;
+}
+
+.favourite_icon {
+  font-size: 2em;
+  cursor: pointer;
+}
+

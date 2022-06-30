@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Press+Start+2P&family=VT323&display=swap");
+
+.container {
+  width: 30em;
+  height: auto;
+}
+
+.card {
+  img,
+  picture {
+    width: 4em;
+    height: auto;
+  }
+
+  .name {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+.button {
+  font-size: 4em;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  padding-right: 1em;
+  padding-left: 1em;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    color: rgb(50, 49, 49);
+  }
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  .container {
+    width: 100vw;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .card {
+    .text{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .name {
+      font-size: 1.5em;
+      font-weight: bold;
+      width:70%;
+      text-align: center;
+    }
+
+    .tagline {
+      font-size: 1em;
+      width:70%;
+    }
+  }
+
+  buttons {
+    button {
+      padding: 5px 16px;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .card {
+    .name {
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    .tagline {
+      font-size: 0.75em;
+    }
+  }
+}
