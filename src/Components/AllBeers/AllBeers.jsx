@@ -7,7 +7,7 @@ import Card from "../Card/Card";
 
 const AllBeers = ({ beerArr }) => {
   return (
-    <article className={styles.card_container}>
+    <article className={styles.card__container}>
       {(beerArr || []).map((beer) => {
         return (
           <Card
