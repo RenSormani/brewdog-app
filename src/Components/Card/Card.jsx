@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styles from "./Card.module.scss";
 import CardButton from "./CardButton/CardButton";
 
+// Creates individual card with a button that accesses more info from the API. 
+
 const Card = (props) => {
   const {
     name,
@@ -13,6 +15,8 @@ const Card = (props) => {
     food,
     tip,
   } = props;
+
+  // UseState actions the viewMore state of the component CardButton
   const [viewMore, setViewMore] = useState(true);
   const handleClick = () => {
     setViewMore(!viewMore);

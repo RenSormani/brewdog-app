@@ -6,6 +6,7 @@ import { faDice } from "@fortawesome/free-solid-svg-icons";
 
 const element2 = <FontAwesomeIcon icon={faDice} transform={{ rotate: -45 }} shake />;
 
+// Create RandomBeer function using Punk API
 class RandomBeer extends React.Component {
   state = {
     randomBeer: null,
@@ -27,6 +28,7 @@ class RandomBeer extends React.Component {
         <h1 className={styles.name}>Roll the dice...</h1>
         <p>Do you feel lucky, Punk? Well? Do you?</p>
 
+        {/* // Give button onClick function to call a random beer*/}
         <button className={styles.button} onClick={() => this.getRandomBeer()}>
         {element2}
         </button>

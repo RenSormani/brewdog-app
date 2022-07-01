@@ -8,6 +8,7 @@ const Dashboard = () => {
   const [beers, setBeers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
+  //Fetches the beer data from the Punk API. 
   const url = "https://api.punkapi.com/v2/beers";
 
   const getBeers = async () => {
@@ -30,16 +31,21 @@ const Dashboard = () => {
 
     return beerNameLower.includes(searchTerm);
   });
+
+    //Filters beers with alcohol content greater than 6
   const handleCheckedABV = (event) => {
     event.target.checked
       ? setBeers(beers.filter((beer) => beer.abv > 6))
       : getBeers(beers);
   };
+
+    //Filters beers from before 2010
   const handleCheckedClassic = (event) => {
     event.target.checked
       ? setBeers(beers.filter((beer) => beer.first_brewed.split("/")[1] < 2010))
       : getBeers(beers);
   };
+      //Filters beers with ph less than 4
   const handleCheckedPH = (event) => {
     event.target.checked
       ? setBeers(beers.filter((beer) => beer.ph < 4))

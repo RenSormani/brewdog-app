@@ -32,3 +32,4 @@ describe("AllBeers tests", () => {
     //     expect(component.find("img").prop("src")).toBe(beerImage);
     // });
 })
+

@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import styles from "./Filters.module.scss";
 
 const Filters = (props) => {
+
+// Use state to make 'filters' a dropdown menu
+// Call handleCheckABV, handleCheckClassic, handleCheckPH 'Props'
+// Give handleDropDown functionality
   const { handleCheckABV, handleCheckClassic, handleCheckPH } = props;
   const [showDropDown, setShowDropDown] = useState(false);
   const handleDropDown = () => {
@@ -20,6 +24,7 @@ const Filters = (props) => {
             <h4 className={styles.close_filters} onClick={handleDropDown}>
               X
             </h4>
+  {/* Make the dropdown menu a 'form' */}
             <form className={styles.form_checkbox}>
               <input type="checkbox" name="abv" onClick={handleCheckABV} />
               <label htmlFor="High ABV">High ABV ({">"} 6.0%)</label>
