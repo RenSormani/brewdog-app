@@ -10,9 +10,9 @@ const App = () => {
   return (
     <>
       <div className={styles.app}>
-        <Navbar />
+      <Navbar />
         <Routes>
-          <Route path="/brewdog-app" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="allbeers" element={<Dashboard />} />
           <Route path="random" element={<Random />} />
         </Routes>
