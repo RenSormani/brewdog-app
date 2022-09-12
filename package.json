@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "http://RenSormani.github.io/home",
+=======
+  "homepage": "http://RenSormani.github.io/brewdog-app/",
+>>>>>>> c00ab8746b5038b4ca68b14bf435d69e7953ea48
   "name": "brewdog-3",
   "version": "0.1.0",
   "private": true,
