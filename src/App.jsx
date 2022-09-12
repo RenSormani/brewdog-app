@@ -12,11 +12,7 @@ const App = () => {
       <div className={styles.app}>
       <Navbar />
         <Routes>
-<<<<<<< HEAD
           <Route path="/home" element={<Home />} />
-=======
-          <Route path="/brewdog-app/" element={<Home />} />
->>>>>>> c00ab8746b5038b4ca68b14bf435d69e7953ea48
           <Route path="allbeers" element={<Dashboard />} />
           <Route path="random" element={<Random />} />
         </Routes>
