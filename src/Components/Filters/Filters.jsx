@@ -3,9 +3,6 @@ import styles from "./Filters.module.scss";
 
 const Filters = (props) => {
 
-// Use state to make 'filters' a dropdown menu
-// Call handleCheckABV, handleCheckClassic, handleCheckPH 'Props'
-// Give handleDropDown functionality
   const { handleCheckABV, handleCheckClassic, handleCheckPH } = props;
   const [showDropDown, setShowDropDown] = useState(false);
   const handleDropDown = () => {
