@@ -2,9 +2,6 @@ import React from "react";
 import styles from "./AllBeers.module.scss";
 import Card from "../Card/Card";
 
-// Call the Card component and run it through the AllBeers function, 
-// mapping through each beer and passing the props as they are on the API
-
 const AllBeers = ({ beerArr }) => {
   return (
     <article className={styles.card__container}>

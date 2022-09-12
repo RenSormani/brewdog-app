@@ -8,7 +8,6 @@ const Dashboard = () => {
   const [beers, setBeers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
-  //Fetches the beer data from the Punk API. 
   const url = "https://api.punkapi.com/v2/beers?page=1&per_page=75";
 
   const getBeers = async () => {
