@@ -9,8 +9,8 @@ const Links = () => {
   return (
     <Routes>
           <Route path="/brewdog-app" element={<Home />} />
-          <Route path="allbeers" element={<Dashboard />} />
-          <Route path="random" element={<Random />} />
+          <Route path="/brewdog-app/allbeers" element={<Dashboard />} />
+          <Route path="/random" element={<Random />} />
         </Routes>
   )
 }
