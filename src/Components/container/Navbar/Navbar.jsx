@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <article className={styles.navbar}>
-      <Link to="/"><img src={icon} alt="brewdog-icon" className={styles.navbar__logo} /></Link>
-      <Link to="/">
+      <Link to="/brewdog-app/"><img src={icon} alt="brewdog-icon" className={styles.navbar__logo} /></Link>
+      <Link to="/brewdog-app/">
         <h1 className={styles.title}>BREWDOG</h1>
       </Link>
       <div className={styles.navbar__random}>
