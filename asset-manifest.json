@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/brewdog-app/static/css/main.e9e44d9a.css",
-    "main.js": "/brewdog-app/static/js/main.50a0b997.js",
+    "main.css": "/brewdog-app/static/css/main.90754c97.css",
+    "main.js": "/brewdog-app/static/js/main.e55e652f.js",
     "static/js/787.0b9cc62b.chunk.js": "/brewdog-app/static/js/787.0b9cc62b.chunk.js",
     "static/media/new-main-2.jpg": "/brewdog-app/static/media/new-main-2.b43939018489f00df6c7.jpg",
     "static/media/lucky_dip.jpg": "/brewdog-app/static/media/lucky_dip.b94d8a44ae0f7da751d6.jpg",
     "static/media/main.jpg": "/brewdog-app/static/media/main.8bfc9ffb6136bdd6bf82.jpg",
     "index.html": "/brewdog-app/index.html",
-    "main.e9e44d9a.css.map": "/brewdog-app/static/css/main.e9e44d9a.css.map",
-    "main.50a0b997.js.map": "/brewdog-app/static/js/main.50a0b997.js.map",
+    "main.90754c97.css.map": "/brewdog-app/static/css/main.90754c97.css.map",
+    "main.e55e652f.js.map": "/brewdog-app/static/js/main.e55e652f.js.map",
     "787.0b9cc62b.chunk.js.map": "/brewdog-app/static/js/787.0b9cc62b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9e44d9a.css",
-    "static/js/main.50a0b997.js"
+    "static/css/main.90754c97.css",
+    "static/js/main.e55e652f.js"
   ]
 }
