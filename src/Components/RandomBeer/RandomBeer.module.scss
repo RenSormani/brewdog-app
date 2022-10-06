@@ -86,7 +86,17 @@
   }
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
+
+  .container{
+    .name{
+      font-size: 1em;
+    }
+    .tagline{
+      font-size: 0.6em;
+    }
+  }
+
   .card {
     .name {
       font-size: 1em;

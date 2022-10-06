@@ -25,7 +25,7 @@ class RandomBeer extends React.Component {
     return (
       <div className={styles.container}>
         <h1 className={styles.name}>Roll the dice...</h1>
-        <p>Do you feel lucky, Punk? Well? Do you?</p>
+        <p className={styles.tagline}>Do you feel lucky, Punk? Well? Do you?</p>
 
         <button className={styles.button} onClick={() => this.getRandomBeer()}>
         {element2}
