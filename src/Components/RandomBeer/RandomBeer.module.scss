@@ -86,8 +86,13 @@
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 375px) {
 
+=======
+@media (min-width: 350px) {
+  
+>>>>>>> 6ce69d2e90b55c19c4627c4caa61828086058aac
   .container{
     .name{
       font-size: 1em;
@@ -96,7 +101,11 @@
       font-size: 0.6em;
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 6ce69d2e90b55c19c4627c4caa61828086058aac
   .card {
     .name {
       font-size: 1em;
